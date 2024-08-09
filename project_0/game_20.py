@@ -37,7 +37,7 @@ def score_game(game_core):
     score_mean = int(np.mean(scores))
     print(f'Ваш алгоритм угадывает число в среднем за {score_mean} попыток.')
 
-# Оценим качество вашего алгоритма
+# Оценим качество нашего алгоритма
 print('Run benchmarking for game_core_v3: ', end='')
 score_game(game_core_v3)
   
